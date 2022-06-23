@@ -66,11 +66,13 @@ const Home = () => {
           ))}
         </ul>
       </div>
-      <div className="p-7 grid grid-cols-1 md:grid-cols-3 ">
+      <div className="p-7 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4">
         <div className="col-span-2">
             <Banner></Banner>
         </div>
-        <Appointments></Appointments>
+        <div className="">
+            <Appointments></Appointments>
+        </div>
       </div>
     </div>
   );
